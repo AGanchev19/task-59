@@ -27,3 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.discounts {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .discounts {
+    visibility: visible;
+  }
+}
